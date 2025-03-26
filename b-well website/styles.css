@@ -1,0 +1,115 @@
+/* Genel Stiller */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d4edda; /* Açık Yeşil */
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c7a2c;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #2c7a2c;
+    font-size: 18px;
+    padding: 8px 12px;
+}
+
+.register-btn {
+    background: #ff8c00;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ✅ Kartlar */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.feature-card h2 {
+    font-size: 20px;
+    color: #2c7a2c;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #555;
+}
+/* ✅ HERO Bölümü */
+.hero {
+    background: #2c7a2c;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* ✅ Dikkat Çekici Buton */
+.hero button {
+    background: #ff8c00; /* Canlı turuncu */
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover ve Tıklama Efektleri */
+.hero button:hover {
+    background: #e07b00;
+    transform: scale(1.05);
+}
+
+.hero button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
